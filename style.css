@@ -10,7 +10,7 @@
 }
 
 .nav-logo {
-    width: 50%;
+    width: 70%;
     cursor: pointer;
 }
 
@@ -892,4 +892,10 @@
 
 .footer-tnc {
     border-right: 1px solid #515151;
+}
+
+@media only screen and (max-width:1440px) {
+  .container-content {
+    padding-top: 20vh;
+}
 }
